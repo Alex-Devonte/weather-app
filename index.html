@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <form>
+                <input type="text" name="location-search" id="location-search" placeholder="Enter location" required>
+                <div class="error" aria-live="polite"></div>
+                <button id="get-weather-btn">Get Weather</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <button id="toggle-unit" class="fahrenheit-unit">Fahrenheit</button>
+        </div>
+        <div class="current-weather-container">
+            <h2 class="location"></h2>
+            <p class="temperature"></p>
+            <p class="condition"></p>
+            <div class="icon-container">
+                
+            </div>
+        </div>
+        <div class="forecast-container">
+            <div class="day-container">
+                <p class="day"></p>
+                <div class="icon-container">
+
+                </div>
+                <div class="low-high">
+                    <p class="low"></p>
+                    <p class="high"></p>
+                </div>
+            </div>
+            <div class="day-container">
+                <p class="day"></p>
+                <div class="icon-container">
+
+                </div>
+                <div class="low-high">
+                    <p class="low"></p>
+                    <p class="high"></p>
+                </div>
+            </div>
+            <div class="day-container">
+                <p class="day"></p>
+                <div class="icon-container">
+                   
+                </div>
+                <div class="low-high">
+                    <p class="low"></p>
+                    <p class="high"></p>
+                </div>
+            </div>
+            <div class="day-container">
+                <p class="day"></p>
+                <div class="icon-container">
+              
+                </div>
+                <div class="low-high">
+                    <p class="low"></p>
+                    <p class="high"></p>
+                </div>
+            </div>
+            <div class="day-container">
+                <p class="day"></p>
+                <div class="icon-container">
+                    
+                </div>
+                <div class="low-high">
+                    <p class="low"></p>
+                    <p class="high"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
